@@ -11,7 +11,7 @@
 
 @interface ViewController ()
 
-@property(nonatomic, strong) IBOutlet UITextView *text;
+@property(nonatomic, weak) IBOutlet UITextView *text;
 
 @property (nonatomic, strong) NSMutableArray<Account*> *accountArray; // 账户数组
 
